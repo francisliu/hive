@@ -371,7 +371,8 @@ public class ExecDriver extends Task<MapredWork> implements Serializable, Hadoop
     try{
       MapredLocalWork localwork = work.getMapLocalWork();
       if (localwork != null) {
-        boolean localMode = HiveConf.getVar(job, HiveConf.ConfVars.HADOOPJT).equals("local");
+        boolean localMode =
+            "local".equals(ShimLoader.getHadoopShims().getJobLauncherRpcAddress(job));
         if (!localMode) {
           Path localPath = new Path(localwork.getTmpFileURI());
           Path hdfsPath = new Path(work.getTmpHDFSFileURI());
@@ -704,7 +705,8 @@ public class ExecDriver extends Task<MapredWork> implements Serializable, Hadoop
     OutputStream out = null;
 
     Properties deltaP = hconf.getChangedProperties();
-    boolean hadoopLocalMode = hconf.getVar(HiveConf.ConfVars.HADOOPJT).equals("local");
+    boolean hadoopLocalMode =
+        "local".equals(ShimLoader.getHadoopShims().getJobLauncherRpcAddress(hconf));
     String hadoopSysDir = "mapred.system.dir";
     String hadoopWorkDir = "mapred.local.dir";
 

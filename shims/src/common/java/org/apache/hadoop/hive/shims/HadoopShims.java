@@ -250,6 +250,12 @@ public interface HadoopShims {
 
   public JobContext newJobContext(Job job);
 
+  public String getJobLauncherRpcAddress(Configuration conf);
+
+  public void setJobLauncherRpcAddress(Configuration conf, String val);
+
+  public String getJobLauncherHttpAddress(Configuration conf);
+
   /**
    * InputSplitShim.
    *
