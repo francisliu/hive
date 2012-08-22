@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="IvyIDEA" name="IvyIDEA">
+      <configuration ivyFile="$MODULE_DIR$/ivy.xml" useProjectSettings="false" useCustomIvySettings="true" ivySettingsFile="$MODULE_DIR$/../ivy/ivysettings.xml" onlyResolveSelectedConfigs="false">
+        <propertiesSettings>
+          <propertiesFiles includeProjectLevelPropertiesFiles="true">
+            <fileName>$MODULE_DIR$/../ivy/libraries.properties</fileName>
+            <fileName>$MODULE_DIR$/../ivy/fcliu.libraries.properties</fileName>
+            <fileName>$MODULE_DIR$/../build.properties</fileName>
+          </propertiesFiles>
+        </propertiesSettings>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/gen/thrift/gen-javabean" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="IvyIDEA">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.hive/hive-serde/jars/hive-serde-0.10.0-SNAPSHOT.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.8.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.thrift/libthrift/jars/libthrift-0.7.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.4.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.thrift/libfb303/jars/libfb303-0.7.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging-api/jars/commons-logging-api-1.0.4.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.avro/avro/jars/avro-1.5.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.7.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.7.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.avro/avro-mapred/jars/avro-mapred-1.5.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.avro/avro-ipc/jars/avro-ipc-1.5.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.26.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/servlet-api/jars/servlet-api-2.5-20081211.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.velocity/velocity/jars/velocity-1.7.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-3.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.hive/hive-shims/jars/hive-shims-0.10.0-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

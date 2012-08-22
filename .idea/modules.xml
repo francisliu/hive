@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cli/cli.iml" filepath="$PROJECT_DIR$/cli/cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hive.iml" filepath="$PROJECT_DIR$/hive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metastore/metastore.iml" filepath="$PROJECT_DIR$/metastore/metastore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ql/ql.iml" filepath="$PROJECT_DIR$/ql/ql.iml" />
+    </modules>
+  </component>
+</project>
+
